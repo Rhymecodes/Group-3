@@ -125,6 +125,10 @@ import sqlite3
 
 ## MODELLING
 #### Correlation of columns in the mb_mg dataframe 
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/correlation.png)
+
+#### A box plot to check for negative values in the profit_gross column
+
 ---
 ### CONCLUSIONS AND RECOMMENDATIONS
 
