@@ -1,4 +1,4 @@
-![image link]()
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Movie%202.jpg)
 
 #  Analysis on Film Production.
 ---
@@ -101,27 +101,31 @@ import sqlite3
 
 ### Visualization
 
-1.viz seasons bar graph by mean worldwide gross
+1.Viz seasons bar graph by mean worldwide gross
 
-![image link]()
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Image%201.jpg)
 
 
-2.check for correlation btn production budget and worldwide gross.
+2.Check for correlation between production budget and worldwide gross.
 
-![image link]()
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Image%203.jpg)
 
 
 3.Distribution of top 10 genres.
 
-![image link]()
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Image%202.jpg)
 
 
 4.visualization of the average rating.
 
-![image link]()
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Image%204.jpg) 
+
 
 ---
 
+## MODELLING
+#### Correlation of columns in the mb_mg dataframe 
+---
 ### CONCLUSIONS AND RECOMMENDATIONS
 
 ####  CONCLUSIONS
