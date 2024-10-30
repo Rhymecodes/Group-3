@@ -126,11 +126,14 @@ import sqlite3
 ## MODELLING
 #### Correlation of columns in the mb_mg dataframe 
 ![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/correlation.png)
+The visualization above provides a comprehensive overview of the relationships among numerical variables in the mb_mg DataFrame.
+
+We write a code segment that prepares and visualizes data to examine the correlation between budget and profit, ensuring meaningful analysis by excluding negative profit values.
 
 #### A box plot to check for negative values in the profit_gross column
 ![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/image%206.png)
 
-
+Sinc the data was not normally distributed we transform it to a normal one 
 ---
 ### CONCLUSIONS AND RECOMMENDATIONS
 
