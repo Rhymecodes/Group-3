@@ -133,7 +133,25 @@ We write a code segment that prepares and visualizes data to examine the correla
 #### A box plot to check for negative values in the profit_gross column
 ![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/image%206.png)
 
-Since the data was not normally distributed we transform it to a normal one 
+Using logarithmic transformation we transform the data into a normally distributed data and did modelling. 
+
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/Image%207.png)
+
+The above visualization compares the model's predictions (red line) with the actual profit values (blue dots) on the test set.
+```python
+#metrics of accuracy
+from sklearn import metrics
+
+# Our first metric is MAE - Mean absolute error
+print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, profit_predict))
+
+# We can also use MSE - Mean squared error
+print('Mean Squared Error:', metrics.mean_squared_error(y_test, profit_predict))
+
+# Finally, the most popular metric: RMSE - Root mean squared error
+print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, profit_predict)))
+```
+
 ---
 ### CONCLUSIONS AND RECOMMENDATIONS
 
