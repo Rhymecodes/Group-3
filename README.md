@@ -128,6 +128,8 @@ import sqlite3
 ![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/correlation.png)
 
 #### A box plot to check for negative values in the profit_gross column
+![image link](https://github.com/Rhymecodes/Group-3/blob/main/images/image%206.png)
+
 
 ---
 ### CONCLUSIONS AND RECOMMENDATIONS
